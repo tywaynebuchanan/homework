@@ -1,0 +1,155 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 12px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    line-height: 1.4;
+}
+h1,h2{
+    font-size: 15px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ECEFF2;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: inline;
+}
+.button{
+    color: white;
+    background-color: darkblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.show{
+   padding-left: 1rem;
+    
+}
+
+.row{
+    display: flex;
+     /* align-items: center; */
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.row-header{
+    display: flex;
+     /* align-items: center; */
+     /* flex-wrap: wrap; */
+     justify-content: space-between;
+     align-items:flex-end;
+}
+
+.col-1{
+    flex-basis: 65%;
+     min-width: 250px;
+     justify-content: center;
+     align-items: center;
+     border-top: 1px solid lightgray;
+     /* padding-top: 0; */
+     margin-left: 0;
+}
+.col-body{
+    max-width: 550px;
+    justify-content: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col-2{
+    flex-basis: 25%;
+     min-width: 50px;
+     justify-content: baseline;
+     align-items: center;
+     /* border: 1px solid black; */
+     /* padding-top: 40px; */
+}
+
+.col-3{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-1{
+   margin-left: 20px;
+   padding: 0;
+    
+}
+
+.title-wrapper{
+    max-width: 400px;
+    
+    /* align-items: left; */
+    /* margin-left: auto; */
+    
+
+}
+table{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+thead{
+    background-color:#ECEFF2 ;
+    font-weight: bold;
+}
+
+td,thead,tr{
+    padding: 3px;
+}
+
+.fa-plus-square{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+.header-wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.logo{
+    height:45px;
+    margin-top:10px
+}
+
+.links{
+    text-decoration: none;
+    color: blue;
+}
+
+.warning{
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+}
+
+.warning-1{
+    border: 1px solid lightgray;
+    padding: 10px 6px 10px 4px;
+}
+
